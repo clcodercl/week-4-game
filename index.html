@@ -1,54 +1,60 @@
-<?xml version="1.0"?>
 <!DOCTYPE html>
-<html>
-
-<head>
-    <title>Cat Collector!</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
+ <html>
+ 
+ <head>
+     <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+       <link href="assets/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <link href="assets/css/bootswatch.less" type="text/css" rel="stylesheet">
     <link href="assets/css/variables.less" type="text/css" rel="stylesheet">
-</head>
-
-<body>
-    <div class="panel panel-default">
+     <title>Very Cute Kitteh Collector!</title>
+ </head>
+ 
+ <body>
+    <!-->DIV for header-->
+        <div class="panel panel-default">
         <div class="panel-body">
-            Cat Collector!
+            Very Cute Kitteh Collector!
         </div>
     </div>
     <div class="jumbotron">
-        <p>Try to guess my number by picking a cat!</p>
+        <p>Try to guess my number by picking a cute kitteh!</p>
     </div>
-    <div class="well"> 
-        <img src="assets/images/paris.jpg" class="cat" id="paris">
-        <img src="assets/images/cicero.jpeg" class="cat" id="cicero">
-        <img src="assets/images/phoenix.jpeg" class="cat" id="phoenix">
-        <img src="assets/images/poomba.jpeg" class="cat" id="poomba">
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-body">
-            <span>Your total: </span>
-            <span class="yourTotal"></span>
-        </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-body">
-            My number: <span class="myNumber"></span>
-        </div>
-    </div>
-    <div class="panel panel-default">
-        <div class="panel-body scores">
-            <span id="wins">Wins: </span>
-            <br>
-            <span id="losses">Losses: </span>
-        </div>
-    </div>
-    <input type="button" value="Play Again!" onClick="window.location.reload()">
 
+
+     <!-->DIV for images-->
+        <div>jumbotron images</div>
+        <!-->DIV for next part-->
+        	<div>panel</div>
+            <div></div>
+            <!-->DIV for for next part-->
+        <div>panel</div>
+            <!-->DIV for next part-->
+            <div></div>
+        <div>panel</div>
+          <!-->Button-->
+      <input type="button" class="button" value="Play Again!" onClick="window.location.reload()">
+        <!-->javascript here-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
-</body>
-
-</html>
+ 
+        <!-->javascript here<br>
+     <div id="game">
+         <p>Pick a Kitteh to try to guess my number!</p>
+     </div>
+     <div class="container">
+         <div>
+             <h2>Press any letter to start playing...</h2>
+             <br>
+             <p id="win">Number Right: wins</p>
+             <p id="losses">Number Wrong: losses</p>
+             <p id="yourGuesses">Number of Guesses: </p>
+             <br>
+             <p id="guessesLeft"> Guesses Left= 10</p>
+         </div>
+         <br>
+       --> 
+     </div>
+ </body>
+ </html>
