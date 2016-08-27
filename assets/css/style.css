@@ -15,6 +15,12 @@
 	right: 0;
 	padding: 5px;
 	bottom: 3px;
+}
+.picture h3 {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
+	left: 0;
 } 
 
 .cat1 {
@@ -27,6 +33,12 @@
 	right: 0;
 	padding: 5px;
 	bottom: 3px;
+}
+.picture h3 {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: white;
+	left: 0;
 } 
 
 
@@ -70,6 +82,7 @@
 .well {
 	text-align: center;
 	display: inline;
+	padding: 85px;
 }
 
 #losses {
