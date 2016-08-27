@@ -1,0 +1,80 @@
+
+.button {
+	text-align: center;
+}
+
+.cat {
+	height: 200px;
+	width: 300px;
+	margin: 10px;
+	background-color: #04139E;
+	color: white;
+	left: 0;
+	right: 0;
+	padding: 5px;
+	bottom: 3px;
+} 
+
+.cat1 {
+	height: 300px;
+	width: 200px;
+	margin: 10px;
+	background-color: #04139E;
+	color: white;
+	left: 0;
+	right: 0;
+	padding: 5px;
+	bottom: 3px;
+} 
+
+
+.h1 {
+	font-size: 50px;
+	font-style: oblique;
+	color: blue;
+}
+
+.h2 {
+	font-size: 25px;
+	font-style: oblique;
+	color: blue;
+}
+
+
+.jumbotron {
+	text-align: center;
+}
+
+.myNumber {
+	font-size: 20px;
+	color: blue;
+	
+}
+
+.panel-body {
+	text-align: center;
+}
+
+
+.yourTotal {
+	font-size: 20px;
+	color: green;
+	
+}
+
+.well {
+	text-align: center;
+	display: inline;
+}
+
+#losses {
+	font-size: 20px;
+	color: red;
+	
+}
+
+#wins {
+	font-size: 20px;
+	color: green;
+	
+}
