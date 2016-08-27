@@ -1,9 +1,3 @@
-
-body {
-    background-image: url("pattern-03.jpg");
-    background-repeat: repeat-x;
-}
-
 .button {
 	text-align: center;
 	padding:20px;
@@ -21,12 +15,6 @@ body {
 	padding: 5px;
 	bottom: 3px;
 }
-.picture h3 {
-	position: absolute;
-	background-color: #4aaaa5;
-	color: white;
-	left: 0;
-} 
 
 .cat1 {
 	height: 200px;
@@ -39,14 +27,7 @@ body {
 	padding: 5px;
 	bottom: 3px;
 }
-.picture h3 {
-	position: absolute;
-	background-color: #4aaaa5;
-	color: white;
-	left: 0;
-} 
-
-
+ 
 .h1 {
 	font-size: 50px;
 	font-style: oblique;
@@ -71,7 +52,6 @@ body {
 }
 
 
-
 .panel-body {
 	text-align: center;
 	text-size: 20px;
@@ -87,7 +67,7 @@ body {
 .well {
 	text-align: center;
 	display: inline;
-	padding: 85px;
+	padding: 75px;
 }
 
 #losses {
