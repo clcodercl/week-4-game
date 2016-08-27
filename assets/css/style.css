@@ -6,8 +6,8 @@
 }
 
 .cat {
-	height: 200px;
-	width: 300px;
+	height: 300px;
+	width: 200px;
 	margin: 10px;
 	background-color: #04139E;
 	color: white;
@@ -18,8 +18,8 @@
 } 
 
 .cat1 {
-	height: 300px;
-	width: 200px;
+	height: 200px;
+	width: 300px;
 	margin: 10px;
 	background-color: #04139E;
 	color: white;
