@@ -54,13 +54,13 @@ $(document).ready(function() {
             	if (total == myNumber){
             		wins++;
             		$("#wins").html(wins);
-            		alert("You are a winner!");
+            		alert("Congratulations! You are a winner!");
 
 
             	} else if(total > myNumber){
             		losses++;
             		$("#losses").html(losses);
-            		alert("Awww, you lose!");
+            		alert("Awww, sorry, you lose!");
             	}
             }
 
