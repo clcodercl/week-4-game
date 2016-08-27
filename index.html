@@ -30,29 +30,37 @@
         <img src="assets/images/phoenix.jpeg" class="kitteh" id="phoenix">
         <img src="assets/images/poomba.jpeg" class="kitteh" id="poomba">
     </div>
-
+ <div class="panel panel-default">
+        <div class="panel-body">
+            Very Cute Kitteh Collector!
+        </div>
+    </div>
+     <div class="panel panel-default">
+        <div class="panel-body">
+            <span>Your total: </span>
+            <span class="yourTotal"></span>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            My number: <span class="myNumber"></span>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body scores">
+            <span id="wins">Wins: </span>
+            <br>
+            <span id="losses">Losses: </span>
+        </div>
+    </div>
+    <input type="button" value="Play Again!" onClick="window.location.reload()">
           <!-->Button-->
       <input type="button" class="button" value="Play Again!" onClick="window.location.reload()">
         <!-->javascript here-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <script type="text/javascript" src="assets/javascript/game.js"></script>
  
-        <!-->javascript here<br>
-     <div id="game">
-         <p>Pick a Kitteh to try to guess my number!</p>
-     </div>
-     <div class="container">
-         <div>
-             <h2>Press any letter to start playing...</h2>
-             <br>
-             <p id="win">Number Right: wins</p>
-             <p id="losses">Number Wrong: losses</p>
-             <p id="yourGuesses">Number of Guesses: </p>
-             <br>
-             <p id="guessesLeft"> Guesses Left= 10</p>
-         </div>
-         <br>
-       --> 
-     </div>
+
+    
  </body>
  </html>
