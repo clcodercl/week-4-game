@@ -1,4 +1,9 @@
 
+body {
+    background-image: url("pattern-03.jpg");
+    background-repeat: repeat-x;
+}
+
 .button {
 	text-align: center;
 	padding:20px;
