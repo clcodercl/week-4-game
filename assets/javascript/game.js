@@ -21,7 +21,7 @@ $(document).ready(function() {
 
             $("#Paris").on("click", function() {
                 total = total + oneNumber;
-                $(".yourTotal").html(total);
+                $(".theTotal").html(total);
                 winning();
                 
 
@@ -29,7 +29,7 @@ $(document).ready(function() {
 
             $("#Cicero").on("click", function() {
                 total = total + twoNumber;
-                $(".yourTotal").html(total);
+                $(".theTotal").html(total);
                 winning();
                 
 
@@ -37,7 +37,7 @@ $(document).ready(function() {
 
             $("#Phoenix").on("click", function() {
                 total = total + threeNumber;
-                $(".yourTotal").html(total);
+                $(".theTotal").html(total);
                 winning();
                 
 
@@ -45,7 +45,7 @@ $(document).ready(function() {
 
             $("#Poomba").on("click", function() {
                 total = total + fourNumber;
-                $(".yourTotal").html(total);
+                $(".theTotal").html(total);
                 winning();
 
             });
