@@ -24,7 +24,6 @@ $(document).ready(function() {
                 $(".theTotal").html(total);
                 winning();
                 
-
             });
 
             $("#Cicero").on("click", function() {
@@ -32,7 +31,6 @@ $(document).ready(function() {
                 $(".theTotal").html(total);
                 winning();
                 
-
             });
 
             $("#Phoenix").on("click", function() {
@@ -40,7 +38,6 @@ $(document).ready(function() {
                 $(".theTotal").html(total);
                 winning();
                 
-
             });
 
             $("#Poomba").on("click", function() {
